@@ -25,11 +25,15 @@ go tool install <command>
 
 # e.g.
 go tool install all
+
+# or separate tools:
 go tool install chi
 go tool install air
 go tool install makefile
 go tool install sqlc
 go tool install templ
+go tool install htmx
+go tool install tailwind
 ```
 
 ## Contributing
