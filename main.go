@@ -13,10 +13,30 @@ func main() {
 	switch os.Args[1] {
 	case "chi":
 		chi()
-		return
+
+	case "air":
+		air()
+
+	case "makefile":
+		makefile()
+
+	case "sqlc":
+		sqlc()
+
+	case "templ":
+		templ()
 
 	case "help", "-help", "--help", "-h":
 		usage()
-		return
+
+	case "all":
+		chi()
+		air()
+		sqlc()
+		templ()
+		makefile()
+
+	default:
+		usage()
 	}
 }

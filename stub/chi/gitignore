@@ -1,0 +1,4 @@
+tmp/
+database/store/
+*.sqlite
+*_templ.go
