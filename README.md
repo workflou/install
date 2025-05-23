@@ -5,6 +5,10 @@ This is a helper tool to quickly bootstrap a new Go project with a handful of op
 Currently available options:
 
 - [x] [chi router](https://github.com/go-chi/chi)
+- [x] [air hot reload](https://github.com/air-verse/air)
+- [x] [sqlc](https://github.com/sqlc-dev/sqlc)
+- [x] [templ](https://github.com/a-h/templ)
+- [x] [goose migrations](https://github.com/pressly/goose)
 
 ## Installation
 
@@ -23,10 +27,6 @@ go tool install chi
 
 ## Roadmap
 
-- [ ] air hot reload
-- [ ] sqlc
-- [ ] templ
-- [ ] goose
 - [ ] htmx
 - [ ] tailwindcss
 
