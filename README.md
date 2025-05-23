@@ -9,6 +9,7 @@ Currently available options:
 - [x] [sqlc](https://github.com/sqlc-dev/sqlc)
 - [x] [templ](https://github.com/a-h/templ)
 - [x] [goose migrations](https://github.com/pressly/goose)
+- [x] [htmx](https://github.com/bigskysoftware/htmx)
 
 ## Installation
 
@@ -32,7 +33,6 @@ go tool install templ
 
 ## Roadmap
 
-- [ ] htmx
 - [ ] tailwindcss
 
 ## Contributing

@@ -6,6 +6,7 @@ import (
 	"time"
 
 	// "PROJECT_NAME/html"
+	// "PROJECT_NAME/static"
 
 	// "github.com/a-h/templ"
 	"github.com/go-chi/chi/v5"
@@ -25,7 +26,15 @@ func main() {
 	r.Use(middleware.Timeout(time.Second * 30))
 	r.Use(middleware.NoCache)
 
+	r.Route("/v1", func(r chi.Router) {
+		r.Get("/test", func(w http.ResponseWriter, r *http.Request) {
+			w.Write([]byte("Hello, world!"))
+		})
+	})
+
 	// r.Get("/", templ.Handler(html.HomePage()).ServeHTTP)
+
+	r.Handle("/static/*", http.StripPrefix("/static/", http.FileServer(http.FS(static.FS))))
 
 	s := http.Server{
 		Addr:    *addr,

@@ -26,6 +26,9 @@ func main() {
 	case "templ":
 		templ()
 
+	case "htmx":
+		htmx()
+
 	case "help", "-help", "--help", "-h":
 		usage()
 
@@ -34,6 +37,7 @@ func main() {
 		air()
 		sqlc()
 		templ()
+		htmx()
 		makefile()
 
 	default:
