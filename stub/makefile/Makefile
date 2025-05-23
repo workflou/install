@@ -3,7 +3,7 @@ watch:
 	go tool air -c .air.toml
 
 .PHONY: build
-build: sqlc templ
+build: sqlc templ tailwind
 	go build -o ./tmp/main .
 
 .PHONY: templ
@@ -17,3 +17,7 @@ create-migration:
 .PHONY: sqlc
 sqlc:
 	go tool sqlc generate
+
+.PHONY: tailwind
+tailwind:
+	tailwindcss -i ./static/css/main.css -o ./static/css/dist.css --minify

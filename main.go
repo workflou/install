@@ -29,6 +29,9 @@ func main() {
 	case "htmx":
 		htmx()
 
+	case "tailwind":
+		tailwind()
+
 	case "help", "-help", "--help", "-h":
 		usage()
 
@@ -38,6 +41,7 @@ func main() {
 		sqlc()
 		templ()
 		htmx()
+		tailwind()
 		makefile()
 
 	default:
