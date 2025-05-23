@@ -4,7 +4,7 @@ This is a helper tool to quickly bootstrap a new Go project with a handful of op
 
 Currently available options:
 
-[x] chi router
+- [x] [chi router](https://github.com/go-chi/chi)
 
 ## Installation
 
@@ -23,12 +23,12 @@ go tool install chi
 
 ## Roadmap
 
-[ ] air hot reload
-[ ] sqlc
-[ ] templ
-[ ] goose
-[ ] htmx
-[ ] tailwindcss
+- [ ] air hot reload
+- [ ] sqlc
+- [ ] templ
+- [ ] goose
+- [ ] htmx
+- [ ] tailwindcss
 
 ## Contributing
 
