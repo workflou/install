@@ -22,7 +22,12 @@ go get -tool github.com/workflou/install
 go tool install <command>
 
 # e.g.
+go tool install all
 go tool install chi
+go tool install air
+go tool install makefile
+go tool install sqlc
+go tool install templ
 ```
 
 ## Roadmap
