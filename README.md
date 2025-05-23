@@ -10,6 +10,7 @@ Currently available options:
 - [x] [templ](https://github.com/a-h/templ)
 - [x] [goose migrations](https://github.com/pressly/goose)
 - [x] [htmx](https://github.com/bigskysoftware/htmx)
+- [x] [tailwindcss](https://tailwindcss.com/blog/standalone-cli)
 
 ## Installation
 
@@ -30,10 +31,6 @@ go tool install makefile
 go tool install sqlc
 go tool install templ
 ```
-
-## Roadmap
-
-- [ ] tailwindcss
 
 ## Contributing
 
